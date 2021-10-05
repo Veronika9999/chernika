@@ -146,13 +146,7 @@
 }
 @media (max-width: 638px){
     header h1{
-        font-size: 36px;
-        line-height: 46px;
         margin-bottom: 14px;
-    }
-    h1 span{
-        font-size: 22px;
-        line-height: 46px;
     }
     header p{
         font-size: 22px;
@@ -212,8 +206,6 @@
         top: 81.6px;
     }
     header h1{
-        font-size: 38px;
-        line-height: 120%;
         margin-bottom: 12px;
     }
     header p{
@@ -222,19 +214,10 @@
     .aboutme__elements img{
         width: 100%;
     }
-    .aboutme__info h2{
-        font-size: 26px;
-    }
 }
 @media (max-width: 320px){
     header h1{
-        font-size: 28px;
-        line-height: 40px;
         margin-bottom: 12px;
-    }
-    h1 span{
-        font-size: 20px;
-        line-height: 40px;
     }
     header p{
         font-size: 20px;
