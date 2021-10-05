@@ -162,7 +162,7 @@
         padding: 8px 32px;
         font-size: 20px;
     }
-    h2{
+    .aboutme__info h2{
         font-size: 32px;
     }
 }
@@ -212,8 +212,8 @@
         top: 81.6px;
     }
     header h1{
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 38px;
+        line-height: 120%;
         margin-bottom: 12px;
     }
     header p{
@@ -222,7 +222,7 @@
     .aboutme__elements img{
         width: 100%;
     }
-    h2{
+    .aboutme__info h2{
         font-size: 26px;
     }
 }
