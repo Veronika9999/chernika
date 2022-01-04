@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>chernika</title>
+</head>
+<body id="body">
+    <nav>
+        <div class="container">
+            <div class="nav__elements">
+                <a href="#" class="nav__logo">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+                <div id="nav__links" class="nav__links">
+                    <a href="#aboutme">Обо мне</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#works">Мои работы</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contacts">Запись</a>
+                </div>
+                <div class="nav__social">
+                    <a class="tel" href="#">+7 (918) 497-70-66</a>
+                    <a  href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <button id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <h1>
+                Вероника Арапова -</h1>
+            <span class="header__title"> мастер маникюрного сервиса</span>
+            <p>
+                Без красивых ногтей не бывает ухоженных рук. Красивые руки признак настоящей леди.
+             <span>(Эмануэль Беар)</span> 
+            </p>
+            <a href="#">Записаться</a>
+        </div>
+        <div class="header-background">
+        </div>
+    </header>
+    <section id="aboutme" class="aboutme">
+        <div class="container">
+            <div class="aboutme__elements">
+                <img src="./img/foto.png" alt="моё фото">
+                <div class="aboutme__info">
+                        <h2>
+                            Обо мне
+                        </h2>
+                        <p>
+                            Обожаю ухоженные руки и красивые ногти. <br> Считаю это неменьшим достоинством, чем красивые черты лица или роскошная фигура, а даже большим, потому что ухоженные руки и красивый маникюр возможны для любой женщины. <br> И я с радостью готова помочь!
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2>
+                Услуги
+            </h2>
+            <div class="services__list"> 
+                <div class="services__item one-service">
+                    <h3>
+                        Комбинированный маникюр
+                    </h3>
+                    <button class="services__link"> Подробнее </button>
+                </div>
+                <div class="services__item two-service">
+                    <h3>
+                        Классический маникюр
+                    </h3>
+                    <button class="services__link"> Подробнее </button>
+                </div>
+                <div class="services__item three-service">
+                    <h3>
+                        Покрытие под кутикулу
+                    </h3>
+                    <button class="services__link"> Подробнее </button>
+                </div>
+                <div class="services__item four-service">
+                    <h3>
+                        Наращивание ногтей
+                    </h3>
+                    <button class="services__link"> Подробнее </button>
+                </div>
+                <div class="services__item five-service">
+                    <h3>
+                        Моделирование ногтевой пластины
+                    </h3>
+                    <button class="services__link"> Подробнее </button>
+                </div>
+                <div class="services__item six-service">
+                    <h3>
+                        Коррекция маникюра
+                    </h3>
+                    <button class="services__link"> Подробнее </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="works">
+        <div class="container">
+            <h2>Мои работы</h2>
+            <div class="swiper work__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/4.png" alt="">
+                    </div>
+                </div>
+                <div id="swiperButtonNext" class="swiper-button-next"></div><!--стрелка вправо-->
+                <div id="swiperButtonPrev" class="swiper-button-prev"></div><!--стрелка влево-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>
+                Отзывы
+            </h2>
+            <div id="reviewsSwiper" class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                       <div class="image image1"></div>
+                        <h4>
+                            Вера
+                        </h4>
+                        <p>
+                            Делала покрытие перед отпуском, и весь отдых не переживала за маникюр, так как на весь месяц хватило, ни одной отслойки!
+                            Пойду переделывать, только потому что ногти отрасли, а так ещё бы ходила и ходила!   
+                        </p>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="image image2"></div>
+                         <h4>
+                             Ирина
+                         </h4>
+                         <p>
+                            Хочется выразить благодарность мастеру Веронике) Маникюр и покрытие под кутикулу очень профессионально,спасибо огромное!
+                             Пишу свой отзыв по истечении уже трёх недель, покрытие до сих пор прекрасное)
+                             Ногти, конечно, отросли и пора делать коррекцию и я только к этому мастеру)
+                             Очень добросовестная и качественная работа!
+                         </p>
+                     </div>
+                     <div class="swiper-slide ">
+                        <div class="image image3"></div>
+                         <h4>
+                            Арина
+                         </h4>
+                         <p>
+                            Это был мой лучший маникюр! Идеальная форма, идеальные кутикулы,идеальное выравнивание,дизайн,а главное стойкие! Я ещё никогда не носила ногти так долго!!! Ни одного поломанного и сколотого ноготочка!Ногти очень аккуратные , и в носке не было никаких неприятностей! Я не просто довольна,я в восторге!
+                         </p>
+                     </div>
+                </div>
+                <div id="reviewsSwiperButtonNext" class="swiper-button-next"></div><!--стрелка вправо-->
+                <div id="reviewsSwiperButtonPrev" class="swiper-button-prev"></div><!--стрелка влево-->
+                <div id="reviewsSwiperPagination" class="swiper-pagination"></div>
+            </div>
+            <form class="review">
+                <h3 class="review-title">Оставьте отзыв</h3>
+                <input type="text" placeholder="Фамилия имя">
+               <textarea placeholder="Отзыв" rows="10"></textarea>
+                <button>Отправить</button>
+            </form>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Запись</h2>
+            <form class="application" action="#">
+                <h3>Оставить заявку</h3>
+                <div class="form-contact">
+                    <div class="application__contacts">
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+                        <input type="email" placeholder="E-mail"> 
+                        <div class="application__date">
+                            <input type="date" placeholder="Выберите дату">
+                            <input type="time" placeholder="Желаемое время">
+                        </div> 
+                    </div>
+                    <div class="application__services">
+                        <label class="application__services-title" for="">Выберите услуги:</label> <br>
+                        <input id="one" type="checkbox"><label for="one">Комбинированный маникюр</label> <br>
+                        <input id="two" type="checkbox"><label for="two">Классический маникюр</label> <br>
+                        <input id="three" type="checkbox"><label for="three">Покрытие под кутикулу</label> <br>
+                        <input id="four" type="checkbox"><label for="four">Наращивание ногтей</label> <br>
+                        <input id="five" type="checkbox"><label for="five">Моделирование ногтевой пластины</label> <br>
+                        <input id="six" type="checkbox"><label for="six">Коррекция маникюра</label> <br>
+                    </div>
+                    <button type="button">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__social">
+                    <a class="telephone" href="#">+7 (918) 497-70-66</a>
+                    <a  href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>Copyright © 2022. Все права защищены</p>
+        </div>
+    </footer>
+    <div id="modalWrapper" class="modal-wrapper">
+    </div>
+    <div id="one" class="content">
+        <h3>
+            Комбинированный маникюр
+        </h3>
+        <p>
+            Комбинированный маникюр – это сочетание лучших свойств классического и аппаратного метода. Долговечность, эстетичность, безопасность, отсутствие травм и болевых ощущений – и это далеко не все его преимущества.
+        </p>
+    </div>
+    <div id="two" class="content">
+        <h3>
+            Классический маникюр
+        </h3>
+        <p>
+            Классический, или обрезной маникюр - это уход за руками, при котором полностью удаляется кутикула с помощью маникюрных щипчиков или ножниц, вычищается «птеригий» (пленка) из под кутикулы. Размягчения добиваются замачиванием в воде или с помощью «ремувера» (средства для размягчения «птеригия»).
+        </p>
+    </div>
+    <div id="three" class="content">
+        <h3>
+            Покрытие под кутикулу
+        </h3>
+        <p>
+            Покрытие под кутикулу – когда гель-лак наносится максимально быстро к кутикуле. Коррекцию ногтей, покрытых таким способом, можно отложить еще на 5-7 дней от обычного времени.
+        </p>
+    </div>
+    <div class="content">
+        <h3>
+            Наращивание ногтей
+        </h3>
+        <p>
+            Наращивание ногтей — процесс искусственного увеличения длины ногтя для того чтобы ногтевая пластина была длиннее. Часто к этому способу прибегают те девушки, у которых не получается отрастить желаемую длину, или у кого ногти быстро ломаются. 
+        </p>
+    </div>
+    <div class="content">
+        <h3>
+            Моделирование ногтевой пластины
+        </h3>
+        <p>
+            Моделирование – это укрепление и выравнивание натуральной ногтевой пластины с помощью искусственных материалов с целью перекрыть все недостатки и сделать ноготок ровным. 
+        </p>
+    </div>
+    <div class="content">
+        <h3>
+           Коррекция маникюра
+        </h3>
+        <p>
+            Коррекция — ремонт маникюра.
+            При коррекции устраняются все недостатки которые образовались во время носки и маскируется стык гел-лака и натурального ногтя. При коррекции дизайн не меняется.
+        </p>
+    </div>
+    <a class="fixid-phone" href="tel:+79184977066"><i class="fas fa-phone-volume"></i></a>
+    <script src="https://kit.fontawesome.com/d3e951b043.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
