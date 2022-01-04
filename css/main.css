@@ -824,6 +824,7 @@ input[type=date], input[type=time]{
     width: 49%;
     display: block;
     min-width: 115px;
+	padding:10px 0;
 }
 #one{
     background: #C24624;
